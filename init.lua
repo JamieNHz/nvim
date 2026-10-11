@@ -840,6 +840,7 @@ do
     },
     -- You can also specify external formatters in here.
     formatters_by_ft = {
+      python = { 'black' },
       -- rust = { 'rustfmt' },
       -- Conform can also run multiple formatters sequentially
       -- python = { "isort", "black" },
